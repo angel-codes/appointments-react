@@ -1,4 +1,4 @@
-# PET APPOINTMENT MANAGER - REACT
+# Pet Appointment Manager - React.js
 
 A simple web-app with React.js to manage your appointments.
 
