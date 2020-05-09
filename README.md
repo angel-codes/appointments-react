@@ -2,6 +2,8 @@
 
 A simple web-app with React.js to manage your appointments.
 
+![Preview](image.png)
+
 ## Set Up
 
 ```bash
