@@ -2,7 +2,7 @@
 
 A simple web-app with React.js to manage your appointments.
 
-![Preview](image.png)
+![Preview](imagen.png)
 
 ## Set Up
 
