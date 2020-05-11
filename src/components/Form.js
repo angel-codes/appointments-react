@@ -41,11 +41,8 @@ const Form = ({createAppointment}) => {
         // Delete prev error
         setError(false);
 
-        // Asing ID
-        appointment.id = v4();
-
         // Create Appointment
-        createAppointment(appointment);
+        createAppointment({...appointment, id: v4()});
 
         // Reset Form
         setAppointment({
