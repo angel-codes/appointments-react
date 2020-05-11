@@ -17,14 +17,8 @@ function App() {
 
     // save all appointments in the localStorage
     useEffect(() => {
-        // Get Appoinments
-        let initAppoinments = JSON.parse(localStorage.getItem('appointments'));
-        if(initAppoinments){
-            // Update localStorage
-            localStorage.setItem('appointments', JSON.stringify(appointments))
-        } else {
-            localStorage.setItem('appointments', JSON.stringify([]));
-        }
+        // Update localStorage
+        localStorage.setItem('appointments', JSON.stringify(appointments))
     }, [appointments])
 
     // Add new Appoinments
